@@ -60,13 +60,13 @@ eventBus.consumer('test', handler => {
 
     // if the value is an array of objects, this workaround works ->
   } catch (error) {
-    console.log('failed to parse value, trying workaround', error.message)
+    console.log('failed to parse value, ', error.message)
     console.log('workaround value', JSON.parse(JSON.stringify(value)))
   }
 })
 
 const port = 6006;
-const host = "localhost"
+const host = "0.0.0.0"
 
 vertx.createHttpServer().requestHandler(router).listen(port, host)
 

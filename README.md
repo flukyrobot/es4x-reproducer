@@ -3,7 +3,7 @@
 
 Check server.js for all the source needed.
 
-run `npm start`, visit http://localhost:40044/client and view your terminal.
+run `npm start`, visit http://localhost:6006/client and view your terminal.
 
 #### My env
 
