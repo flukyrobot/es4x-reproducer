@@ -5,7 +5,7 @@
   "scripts": {
     "test": "es4x test index.test.js",
     "postinstall": "es4x install",
-    "start": "es4x"
+    "start": "es4x server.js"
   },
   "keywords": [],
   "author": "",

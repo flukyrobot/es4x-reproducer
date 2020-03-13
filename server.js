@@ -66,7 +66,7 @@ eventBus.consumer('test', handler => {
 })
 
 const port = 6006;
-const host = "0.0.0.0"
+const host = "localhost"
 
 vertx.createHttpServer().requestHandler(router).listen(port, host)
 
